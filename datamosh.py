@@ -63,7 +63,7 @@ if start_effect_sec > end_effect_sec:
 
 input_avi =  os.path.join(output_dir, 'datamoshing_input.avi')
 output_avi = os.path.join(output_dir, 'datamoshing_output.avi')
-output_video = os.path.join(output_dir, 'moshed_{}.mp4'.format(file_name))
+output_video = os.path.join(output_dir, 'moshed_{}.mp4'.format(video_file))
 
 
 # where the magic happens
